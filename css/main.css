@@ -96,6 +96,69 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* css mobile  */
+h1 {
+  margin: 0.2em 0;
+}
+h2 {
+  text-align: center;
+}
+p {
+  margin-top: 1em;
+}
+article div a {
+  margin: 0 1em 1em 0;
+}
+article {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.computeurOnly {
+  display: none;
+}
+.displaySAC {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.displayCenter {
+  display: flex;
+  justify-content: center;
+}
+#borderBottom {
+  border-bottom: 1px solid black;
+}
+.tabAndDesktop {
+  display: none;
+}
+.logo {
+  width: 20%;
+  height: auto;
+  margin: 0.2em 0;
+}
+#imgSection {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.imgArticle {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+#marginButton {
+  margin: 0.3em 0 0.3em 0.3em;
+}
+.imgTitleSlogan {
+  display: none;
+}
+#textCenter {
+  text-align: center;
+}
+.flexboxFlexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
    /* utility class */
 
 
