@@ -1,36 +1,206 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>boulangerie</title>
+  <meta name="description" content="test responzive site boulangerie">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <!-- start hader -->
+  <header id="borderBottom" class="displaySAC">
+    <img class="logo" src="img/logo.jpg" alt="logo">
+    <!-- start aside -->
+    <aside class="displaySAC">
+      <a href="#"><i class="fas fa-users fa-2x"></i></a>
+      <input id="marginBorder" class="tabAndDesktop" type="text" class="form-control" placeholder="Recherche">
+      <a class="tabAndDesktop" href="#"><i class="fas fa-search"></i></a>
+    </aside>
+  </header>
+  <!-- end header -->
+  <!-- start nav -->
+  <nav class="mobilOnly navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">MENU</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Lien1 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lien2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lien3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lien4</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="tabAndDesktop">
+    <ul id="borderBottom" class="marginNav nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Lien1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Lien2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Lien3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Lien4</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- end nav -->
+  <!-- start main -->
+  <main>
+    <!-- start title and slogan -->
+    <div class="">
+      <img class="imgTitleSlogan" src="img/pain2.jpg" alt="pain">
+      <section class="relativePosition" id="textCenter">
+        <h1>BOULANGERIE</h1>
+        <h3>Vive le pain</h3>
+      </section>
+    </div>
+    <!-- start 3 blocs call to action -->
+    <div class="computeurOnly">
+      <div id="marginBloc" class="displaySAC">
+        <div id="textCenter" class="borderLine">
+          <a href="#">call action</a>
+          <p>action1</p>
+        </div>
+        <div id="textCenter" class="borderLine">
+          <a href="#">call action</a>
+          <p>action2</p>
+        </div>
+        <div id="textCenter" class="borderLine">
+          <a href="#">call action</a>
+          <p>action3</p>
+        </div>
+      </div>
+    </div>
+    <!-- start section P and image -->
+    <section>
+      <div class="displayCenter">
+        <p>texte, blabla bla bla bla bla bla bla</p>
+      </div>
+      <figure>
+        <img id="imgSection" src="img/bag.jpg" alt="pain">
+      </figure>
+    </section>
+    <!-- start section with 3 articles -->
+    <section>
+      <h3>sous-titre</h3>
+      <!-- start article -->
+      <div class="flexWrap">
+        <article class="">
+          <header>
+            <h2>titre article</h2>
+          </header>
+          <img class="imgArticle" src="img/choco.jpg" alt="choco">
+          <p id="textCenter">texte, pour mettre du texte</p>
+          <div class="flexboxFlexEnd">
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-slack fa-2x"></i></a>
+            <a href="#"><i class="far fa-eye fa-2x"></i></a>
+          </div>
+        </article>
+        <article class="">
+          <header>
+            <h2>titre article</h2>
+          </header>
+          <img class="imgArticle" src="img/choco.jpg" alt="choco">
+          <p id="textCenter">texte, pour mettre du texte</p>
+          <div class="flexboxFlexEnd">
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-slack fa-2x"></i></a>
+            <a href="#"><i class="far fa-eye fa-2x"></i></a>
+          </div>
+        </article>
+          <article class="">
+            <header>
+              <h2>titre article</h2>
+            </header>
+            <img class="imgArticle" src="img/choco.jpg" alt="choco">
+            <p id="textCenter">texte, pour mettre du texte</p>
+            <div class="flexboxFlexEnd">
+              <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="#"><i class="fab fa-slack fa-2x"></i></a>
+              <a href="#"><i class="far fa-eye fa-2x"></i></a>
+            </div>
+          </article>
+    </section>
+  </main>
+  <!-- end main  -->
+  <!-- start footer -->
+  <footer>
+    <div>
+    <div class="computeurOnly">
+      <ul class="displaySAC">
+        <li> <a href="#">lien1</a> </li>
+        <li> <a href="#">lien2</a> </li>
+        <li> <a href="#">lien3</a> </li>
+      </ul>
+      <ul class="displaySAC">
+        <li> <a href="#">lien4</a> </li>
+        <li> <a href="#">lien5</a> </li>
+        <li> <a href="#">lien6</a> </li>
+      </ul>
+      <ul class="displaySAC">
+        <li> <a href="#">lien7</a> </li>
+        <li> <a href="#">lien8</a> </li>
+        <li> <a href="#">lien9</a> </li>
+      </ul>
+    </div>
+  </div>
+    <div class="displayCenter">
+      <p>Voici mon footer</p>
+    </div>
+    <div class="displaySAC">
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+      <a href="#"><i class="fab fa-github-alt fa-2x"></i></a>
+      <a href="#"><i class="fab fa-slack fa-2x"></i></a>
+    </div>
+  </footer>
+
 
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  <script src="js/plugins.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
