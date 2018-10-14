@@ -23,15 +23,15 @@
   <header id="borderBottom" class="displaySAC">
     <img class="logo" src="img/logo.jpg" alt="logo">
     <!-- start aside -->
-    <aside class="">
+    <aside class="displaySAC">
       <a href="#"><i class="fas fa-users fa-2x"></i></a>
-      <input class="tabAndDesktop" type="text" class="form-control" placeholder="First name">
+      <input id="marginBorder" class="tabAndDesktop" type="text" class="form-control" placeholder="Recherche">
       <a class="tabAndDesktop" href="#"><i class="fas fa-search"></i></a>
     </aside>
   </header>
   <!-- end header -->
   <!-- start nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="mobilOnly navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -53,30 +53,48 @@
       </ul>
     </div>
   </nav>
+  <nav class="tabAndDesktop">
+    <ul id="borderBottom" class="marginNav nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Lien1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Lien2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Lien3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Lien4</a>
+      </li>
+    </ul>
+  </nav>
   <!-- end nav -->
   <!-- start main -->
   <main>
     <!-- start title and slogan -->
     <div class="">
-      <img class="imgTitleSlogan" src="" alt="">
-      <section id="textCenter">
+      <img class="imgTitleSlogan" src="img/pain2.jpg" alt="pain">
+      <section class="relativePosition" id="textCenter">
         <h1>BOULANGERIE</h1>
         <h3>Vive le pain</h3>
       </section>
     </div>
     <!-- start 3 blocs call to action -->
     <div class="computeurOnly">
-      <div class="">
-        <a href="#">call action</a>
-        <p>action1</p>
-      </div>
-      <div class="">
-        <a href="#">call action</a>
-        <p>action2</p>
-      </div>
-      <div class="">
-        <a href="#">call action</a>
-        <p>action3</p>
+      <div id="marginBloc" class="displaySAC">
+        <div id="textCenter" class="borderLine">
+          <a href="#">call action</a>
+          <p>action1</p>
+        </div>
+        <div id="textCenter" class="borderLine">
+          <a href="#">call action</a>
+          <p>action2</p>
+        </div>
+        <div id="textCenter" class="borderLine">
+          <a href="#">call action</a>
+          <p>action3</p>
+        </div>
       </div>
     </div>
     <!-- start section P and image -->
@@ -92,7 +110,7 @@
     <section>
       <h3>sous-titre</h3>
       <!-- start article -->
-      <div class="">
+      <div class="flexWrap">
         <article class="">
           <header>
             <h2>titre article</h2>
@@ -116,6 +134,7 @@
             <a href="#"><i class="fab fa-slack fa-2x"></i></a>
             <a href="#"><i class="far fa-eye fa-2x"></i></a>
           </div>
+        </article>
           <article class="">
             <header>
               <h2>titre article</h2>
@@ -133,23 +152,25 @@
   <!-- end main  -->
   <!-- start footer -->
   <footer>
+    <div>
     <div class="computeurOnly">
-      <ul>
+      <ul class="displaySAC">
         <li> <a href="#">lien1</a> </li>
         <li> <a href="#">lien2</a> </li>
         <li> <a href="#">lien3</a> </li>
       </ul>
-      <ul>
+      <ul class="displaySAC">
         <li> <a href="#">lien4</a> </li>
         <li> <a href="#">lien5</a> </li>
         <li> <a href="#">lien6</a> </li>
       </ul>
-      <ul>
+      <ul class="displaySAC">
         <li> <a href="#">lien7</a> </li>
         <li> <a href="#">lien8</a> </li>
         <li> <a href="#">lien9</a> </li>
       </ul>
     </div>
+  </div>
     <div class="displayCenter">
       <p>Voici mon footer</p>
     </div>
